@@ -1,0 +1,14 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\bin\Debug\net7.0\GenrenciamentoEstoque.exe
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\bin\Debug\net7.0\GenrenciamentoEstoque.deps.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\bin\Debug\net7.0\GenrenciamentoEstoque.runtimeconfig.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\bin\Debug\net7.0\GenrenciamentoEstoque.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\bin\Debug\net7.0\GenrenciamentoEstoque.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\refint\GenrenciamentoEstoque.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\GenrenciamentoEstoque.genruntimeconfig.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\obj\Debug\net7.0\ref\GenrenciamentoEstoque.dll
