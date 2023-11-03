@@ -18,7 +18,6 @@ namespace GerenciamentoEstoque.Atores.Internos
         protected string endereco;
         protected string telefone;
         protected char tipoFuncionario;
-        private bool estaLogado = false;
 
         // Cadastro
         public Funcionario(string nome, string cpf, string email, string login, string senha, string endereco, string telefone = "")
@@ -46,7 +45,6 @@ namespace GerenciamentoEstoque.Atores.Internos
                 if (this.login == login && this.senha == senha)
                 {
                     Console.WriteLine("Login bem-sucedido!");
-                    estaLogado = true;
                     return true;
                 }
 
@@ -57,7 +55,6 @@ namespace GerenciamentoEstoque.Atores.Internos
         public void Logoff()
         {
             Console.WriteLine("Você saiu. Até mais! :)");
-            estaLogado = false;
         }
 
         public void AlterarSenha()
@@ -96,6 +93,7 @@ namespace GerenciamentoEstoque.Atores.Internos
         public string GetEmail() { return email; }
         public string GetEndereco() { return endereco; }
         public string GetTelefone() { return telefone; }
+        public void GetTipoFuncionario() { Console.WriteLine($"Tipo funcionário: {tipoFuncionario}"); }
 
         // Sets
         private void SetId()
@@ -108,5 +106,5 @@ namespace GerenciamentoEstoque.Atores.Internos
         public void SetEmail(string email) { this.email = email; }
         public void SetEndereco(string endereco) { this.endereco = endereco; }
         public void SetTelefone(string telefone) { this.telefone = telefone; }
-    }
+    }  
 }
