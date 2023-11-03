@@ -14,19 +14,14 @@ namespace Gerenciamentodeestoque.Atores
         public string GetId() { return idFornecedor; }
         public string GetNome() { return nomeFornecedor; }
 
-        private void SetIdF()
+        private void SetId()
         {
             Random random = new Random();
             int numeroAleatorio = random.Next(1, 1000000);
             idFornecedor = numeroAleatorio.ToString("000000");
         }
 
-        public void SetNomeF()
-        {
-            Random random = new Random();
-            int numeroAleatorio = random.Next(1, 1000000);
-            idFornecedor = numeroAleatorio.ToString("000000");
-        }
+        public void SetNome(string nomeFornecedor) { this.nomeFornecedor = nomeFornecedor; }
 
         public Cotacao ResponderCotacao(string idCotacao)
         {
