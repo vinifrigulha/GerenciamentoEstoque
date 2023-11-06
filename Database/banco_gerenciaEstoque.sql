@@ -1,137 +1,82 @@
-create database gerenciaEstoque;
+CREATE DATABASE gerenciaEstoque;
 
-use gerenciaEstoque;
+USE gerenciaEstoque;
 
-create table funcionario(
-    idFuncionario integer not null,
-    nome varchar(45),
-    cpf char(11),
-    email varchar(45),
-    senha varchar(45),
-    telefone varchar(45),
-    endereco varchar(45),
-    tipoFuncionario char(1),
-    primary key(idFuncionario)
+CREATE TABLE funcionario (
+    idFuncionario INT NOT NULL,
+    nome VARCHAR(45),
+    cpf CHAR(11),
+    email VARCHAR(45),
+    senha VARCHAR(45),
+    telefone VARCHAR(45),
+    endereco VARCHAR(45),
+    tipoFuncionario CHAR(1),
+    PRIMARY KEY (idFuncionario)
 );
 
-create table requisicao(
-    idRequisicao integer not null,
-    idProduto varchar(45),
-    checado bool,
-    primary key(idRequisicao,idProduto)
+CREATE TABLE produto (
+    idProduto INT NOT NULL,
+    preco DOUBLE,
+    quantidadeEstoque INT,
+    localizacaoEstoque INT,
+    unidadeVenda VARCHAR(45),
+    validade DATETIME,
+    PRIMARY KEY (idProduto)
 );
 
-create table produto(
-    idProduto integer not null,
-    preco double,
-    qtdEstoque integer,
-    localizacaoEstoque integer,
-    unidadeVenda varchar(20),
-    validade date,
-    primary key(idProduto)
+CREATE TABLE requisicao (
+    idRequisicao INT NOT NULL,
+    idProduto INT NOT NULL,  -- Adicione a coluna idProduto
+    checado BOOLEAN,
+    PRIMARY KEY (idRequisicao, idProduto),
+    FOREIGN KEY (idProduto) REFERENCES produto(idProduto)  -- Adicione a chave estrangeira
 );
 
-create table cotacao(
-    idCotacao integer not null,
-    idComprador integer not null,
-    finalizado bool,
-    primary key(idCotacao, idComprador)
+CREATE TABLE cotacao (
+    idCotacao INT NOT NULL,
+    idComprador INT NOT NULL,
+    finalizado BOOLEAN,
+    PRIMARY KEY (idCotacao, idComprador),
+    FOREIGN KEY (idComprador) REFERENCES funcionario(idFuncionario)
 );
 
-create table ordemCompra(
-    idOrdemCompra integer primary key not null
+CREATE TABLE ordemCompra (
+    idOrdemCompra INT PRIMARY KEY NOT NULL
 );
 
-create table pedido(
-    idPedido integer not null,
-    idCliente integer not null,
-    finalizado bool,
-    primary key(idPedido, idCliente)
+CREATE TABLE cliente (
+    idCliente INT NOT NULL,
+    nome VARCHAR(45),
+    PRIMARY KEY (idCliente)
 );
 
-create table ordemVenda(
-    idOrdemVenda integer not null,
-    idVendedor integer not null,
-    primary key(idOrdemVenda, idVendedor)
+CREATE TABLE pedido (
+    idPedido INT NOT NULL,
+    idCliente INT NOT NULL,
+    finalizado BOOLEAN,
+    PRIMARY KEY (idPedido),
+    FOREIGN KEY (idCliente) REFERENCES cliente(idCliente)
 );
 
-create table produto(
-    idProduto integer not null,
-    preco double,
-    quantidadeEstoque integer,
-    localizacaoEstoque integer,
-    unidadeVenda varchar(45),
-    validade datetime,
-    primary key(idProduto)
+CREATE TABLE ordemVenda (
+    idOrdemVenda INT NOT NULL,
+    idVendedor INT NOT NULL,
+    PRIMARY KEY (idOrdemVenda),
+    FOREIGN KEY (idVendedor) REFERENCES funcionario(idFuncionario)
 );
 
-create table fornecedor(
-    idFornecedor integer not null,
-    nomeFornecedor varchar(45),
-    primary key(idFornecedor)
-);
-
-create table cliente(
-    idCliente integer not null,
-    nome varchar(45),
-    primary key(idCliente)
+CREATE TABLE fornecedor (
+    idFornecedor INT NOT NULL,
+    nomeFornecedor VARCHAR(45),
+    PRIMARY KEY (idFornecedor)
 );
 
 CREATE TABLE ProdutoReq (
-    idRequisicao integer not null,
-    idFuncionario integer not null,
-    idCotacao integer not null,
-    idProduto integer not null,
-    foreign key (idRequisicao) references requisicao(idRequisicao),
-    foreign key (idFuncionario) references funcionario(idFuncionario),
-    foreign key (idCotacao) references cotacao(idCotacao),
-    foreign key (idProduto) references produto(idProduto)
+    idRequisicao INT NOT NULL,
+    idFuncionario INT NOT NULL,
+    idCotacao INT NOT NULL,
+    idProduto INT NOT NULL,
+    FOREIGN KEY (idRequisicao, idProduto) REFERENCES requisicao(idRequisicao, idProduto),
+    FOREIGN KEY (idFuncionario) REFERENCES funcionario(idFuncionario),
+    FOREIGN KEY (idCotacao) REFERENCES cotacao(idCotacao)
 );
-
-alter table requisicao
-add constraint idFuncionario
-foreign key (idFuncionario)
-references funcionario(idFuncionario);
-
-alter table requisicao
-add constraint idCotacao
-foreign key (idCotacao)
-references cotacao(idCotacao);
-
-alter table produto
-add constraint idFuncionario
-foreign key (idFuncionario)
-references funcionario(idFuncionario);
-
-alter table pedido
-add constraint idFuncionario
-foreign key (idFuncionario)
-references funcionario(idFuncionario);
-
-alter table pedido
-add constraint idOrdemVenda
-foreign key (idOrdemVenda)
-references ordemVenda(idOrdemVenda);
-
-alter table cliente
-add constraint idFuncionario
-foreign key (idFuncionario)
-references funcionario(idFuncionario);
-
-alter table cliente
-add constraint idPedido
-foreign key (idPedido)
-references pedido(idPedido);
-
-alter table cliente
-add constraint idOrdemVenda
-foreign key (idOrdemVenda)
-references ordemVenda(idOrdemVenda);
-
-/*
-ALTER TABLE tabela_filha
-ADD CONSTRAINT nome_da_chave_estrangeira
-FOREIGN KEY (coluna_referencia)
-REFERENCES tabela_pai(coluna_referenciada);
-
-*/
