@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GerenciamentoEstoque.API</name>
+    </assembly>
+    <members>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.Recuperar(System.Int32)">
+            <summary>
+             Recuperar  produto por codigo.
+             </summary>
+             <param name="codigo"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.Listar(GerenciamentoEstoque.DataTransfer.Produtos.Request.ProdutoListarRequest)">
+            <summary>
+            Recuperar  produtos paginados.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.Inserir(GerenciamentoEstoque.DataTransfer.Produtos.Request.ProdutoInserirRequest)">
+            <summary>
+             Criar  produto.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.Editar(System.Int32,GerenciamentoEstoque.DataTransfer.Produtos.Request.ProdutoEditarRequest)">
+            <summary>
+             Editar  produto por codigo.
+             </summary>
+             <param name="codigo"></param>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.Excluir(System.Int32)">
+            <summary>
+             Excluir produto por codigo.
+             </summary>
+             <param name="codigo"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GerenciamentoEstoque.API.Controllers.Produtos.ProdutosController.AlterarSituacao(GerenciamentoEstoque.Dominio.Produtos.Enumeradores.ProdutoSituacaoEnum,GerenciamentoEstoque.DataTransfer.Produtos.Request.ProdutoAlterarSituacaoRequest)">
+            <summary>
+            Altera a situacao de um ou mais produtos
+            </summary>
+            <param name="situacao"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

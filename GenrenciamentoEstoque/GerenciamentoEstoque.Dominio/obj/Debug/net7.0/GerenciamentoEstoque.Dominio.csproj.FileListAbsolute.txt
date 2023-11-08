@@ -1,0 +1,11 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.deps.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\refint\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\GerenciamentoEstoque.Dominio.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Dominio\obj\Debug\net7.0\ref\GerenciamentoEstoque.Dominio.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GerenciamentoEstoque.DataTransfer/1.0.0": {
+        "dependencies": {
+          "GerenciamentoEstoque.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "GerenciamentoEstoque.DataTransfer.dll": {}
+        }
+      },
+      "GerenciamentoEstoque.Dominio/1.0.0": {
+        "runtime": {
+          "GerenciamentoEstoque.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GerenciamentoEstoque.DataTransfer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GerenciamentoEstoque.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

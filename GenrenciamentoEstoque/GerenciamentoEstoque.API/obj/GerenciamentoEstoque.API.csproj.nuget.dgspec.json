@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.API\\GerenciamentoEstoque.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.API\\GerenciamentoEstoque.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.API\\GerenciamentoEstoque.API.csproj",
+        "projectName": "GerenciamentoEstoque.API",
+        "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.API\\GerenciamentoEstoque.API.csproj",
+        "packagesPath": "C:\\Users\\marif\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\GerenciamentoEstoque.Aplicacao.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\GerenciamentoEstoque.Aplicacao.csproj"
+              },
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj"
+              },
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj"
+              },
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\GerenciamentoEstoque.Infra.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\GerenciamentoEstoque.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Nhibernate": {
+              "target": "Package",
+              "version": "[5.4.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\GerenciamentoEstoque.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\GerenciamentoEstoque.Aplicacao.csproj",
+        "projectName": "GerenciamentoEstoque.Aplicacao",
+        "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\GerenciamentoEstoque.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\marif\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj"
+              },
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj",
+        "projectName": "GerenciamentoEstoque.DataTransfer",
+        "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\GerenciamentoEstoque.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\marif\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.DataTransfer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj",
+        "projectName": "GerenciamentoEstoque.Dominio",
+        "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj",
+        "packagesPath": "C:\\Users\\marif\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\GerenciamentoEstoque.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\GerenciamentoEstoque.Infra.csproj",
+        "projectName": "GerenciamentoEstoque.Infra",
+        "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\GerenciamentoEstoque.Infra.csproj",
+        "packagesPath": "C:\\Users\\marif\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj": {
+                "projectPath": "C:\\Git\\GerenciamentoEstoque\\GenrenciamentoEstoque\\GerenciamentoEstoque.Dominio\\GerenciamentoEstoque.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

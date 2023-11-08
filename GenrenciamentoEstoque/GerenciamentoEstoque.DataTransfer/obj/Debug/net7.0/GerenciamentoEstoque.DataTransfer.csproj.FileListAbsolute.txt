@@ -1,0 +1,15 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\bin\Debug\net7.0\GerenciamentoEstoque.DataTransfer.deps.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\bin\Debug\net7.0\GerenciamentoEstoque.DataTransfer.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\bin\Debug\net7.0\GerenciamentoEstoque.DataTransfer.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.csproj.AssemblyReference.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.csproj.CopyComplete
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\refint\GerenciamentoEstoque.DataTransfer.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\GerenciamentoEstoque.DataTransfer.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.DataTransfer\obj\Debug\net7.0\ref\GerenciamentoEstoque.DataTransfer.dll

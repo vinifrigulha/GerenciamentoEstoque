@@ -1,0 +1,15 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.csproj.AssemblyReference.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\bin\Debug\net7.0\GerenciamentoEstoque.Infra.deps.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\bin\Debug\net7.0\GerenciamentoEstoque.Infra.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\bin\Debug\net7.0\GerenciamentoEstoque.Infra.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.csproj.CopyComplete
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\refint\GerenciamentoEstoque.Infra.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\GerenciamentoEstoque.Infra.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Infra\obj\Debug\net7.0\ref\GerenciamentoEstoque.Infra.dll

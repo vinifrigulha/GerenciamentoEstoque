@@ -1,0 +1,7 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.csproj.AssemblyReference.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.API\obj\Debug\net6.0\GerenciamentoEstoque.API.MvcApplicationPartsAssemblyInfo.cache

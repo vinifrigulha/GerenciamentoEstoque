@@ -1,0 +1,17 @@
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.csproj.AssemblyReference.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.AssemblyInfoInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.AssemblyInfo.cs
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.Aplicacao.deps.json
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.Aplicacao.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.Aplicacao.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.DataTransfer.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.Dominio.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\bin\Debug\net7.0\GerenciamentoEstoque.DataTransfer.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.csproj.CopyComplete
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\refint\GerenciamentoEstoque.Aplicacao.dll
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\GerenciamentoEstoque.Aplicacao.pdb
+C:\Git\GerenciamentoEstoque\GenrenciamentoEstoque\GerenciamentoEstoque.Aplicacao\obj\Debug\net7.0\ref\GerenciamentoEstoque.Aplicacao.dll
