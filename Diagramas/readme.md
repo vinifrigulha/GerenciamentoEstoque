@@ -1,11 +1,11 @@
 # Diagramas do Gerenciamento de Estoque
 
 ## Fluxo do Projeto:
-![Fluxo](https://github.com/vinifrigulha/GerenciamentoEstoque/blob/master/Diagramas/DiagramaFluxo.jpeg)
+![Fluxo](https://github.com/vinifrigulha/GerenciamentoEstoque/blob/master/Diagramas/GerenciamentoDeEstoque3.jpg)
 
 
 ## Diagrama UML:
-![UML](https://github.com/vinifrigulha/GerenciamentoEstoque/blob/master/Diagramas/DiagramaUML.jpeg)
+![UML](https://github.com/vinifrigulha/GerenciamentoEstoque/blob/master/Diagramas/GerenciamentoEstoque5.jpg)
 
 
 ## Diagrama Entidade-Relacionamento:
