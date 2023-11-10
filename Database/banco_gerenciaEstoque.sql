@@ -13,13 +13,6 @@ CREATE TABLE funcionario (
     tipoFuncionario CHAR(1)
 );
 
-CREATE TABLE requisicao (
-    idRequisicao INT AUTO_INCREMENT,
-    idProduto VARCHAR(45),
-    checado BOOL,
-    PRIMARY KEY(idRequisicao, idProduto)
-);
-
 CREATE TABLE produto (
     idProduto INT AUTO_INCREMENT PRIMARY KEY,
     preco DOUBLE,
@@ -30,28 +23,40 @@ CREATE TABLE produto (
     validade DATE
 );
 
+CREATE TABLE requisicao (
+    idRequisicao INT AUTO_INCREMENT PRIMARY KEY,
+    checado BOOL
+);
+
+CREATE TABLE requisicao_produto (
+    idRequisicao INT,
+    idProduto INT,
+    PRIMARY KEY(idRequisicao, idProduto),
+    FOREIGN KEY (idRequisicao) REFERENCES requisicao(idRequisicao),
+    FOREIGN KEY (idProduto) REFERENCES produto(idProduto)
+);
+
 CREATE TABLE cotacao (
-    idCotacao INT AUTO_INCREMENT,
+    idCotacao INT AUTO_INCREMENT PRIMARY KEY,
     idComprador INT,
     finalizado BOOL,
-    PRIMARY KEY(idCotacao, idComprador)
+    FOREIGN KEY (idComprador) REFERENCES funcionario(idFuncionario)
 );
 
 CREATE TABLE ordemCompra (
     idOrdemCompra INT AUTO_INCREMENT PRIMARY KEY
 );
 
-CREATE TABLE pedido (
-    idPedido INT AUTO_INCREMENT,
-    idCliente INT,
-    finalizado BOOL,
-    PRIMARY KEY(idPedido, idCliente)
+CREATE TABLE cliente (
+    idCliente INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100)
 );
 
-CREATE TABLE ordemVenda (
-    idOrdemVenda INT AUTO_INCREMENT,
-    idVendedor INT,
-    PRIMARY KEY(idOrdemVenda, idVendedor)
+CREATE TABLE pedido (
+    idPedido INT AUTO_INCREMENT PRIMARY KEY,
+    idCliente INT,
+    finalizado BOOL,
+    FOREIGN KEY (idCliente) REFERENCES cliente(idCliente)
 );
 
 CREATE TABLE fornecedor (
@@ -59,7 +64,11 @@ CREATE TABLE fornecedor (
     nomeFornecedor VARCHAR(100)
 );
 
-CREATE TABLE cliente (
-    idCliente INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100)
+CREATE TABLE ProdutoReq (
+    idRequisicao INT,
+    idFuncionario INT,
+    idCotacao INT,
+    FOREIGN KEY (idRequisicao) REFERENCES requisicao(idRequisicao),
+    FOREIGN KEY (idFuncionario) REFERENCES funcionario(idFuncionario),
+    FOREIGN KEY (idCotacao) REFERENCES cotacao(idCotacao)
 );
