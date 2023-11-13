@@ -3,7 +3,7 @@ CREATE DATABASE gerenciaEstoque;
 USE gerenciaEstoque;
 
 CREATE TABLE funcionario (
-    idFuncionario INT NOT NULL,
+    idFuncionario INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(45),
     cpf CHAR(11),
     email VARCHAR(45),
@@ -15,7 +15,7 @@ CREATE TABLE funcionario (
 );
 
 CREATE TABLE produto (
-    idProduto INT NOT NULL,
+    idProduto INT NOT NULL AUTO_INCREMENT,
     preco DOUBLE,
     quantidadeEstoque INT,
     localizacaoEstoque INT,
@@ -25,7 +25,7 @@ CREATE TABLE produto (
 );
 
 CREATE TABLE requisicao (
-    idRequisicao INT NOT NULL,
+    idRequisicao INT NOT NULL AUTO_INCREMENT,
     idProduto INT NOT NULL,  -- Adicione a coluna idProduto
     checado BOOLEAN,
     PRIMARY KEY (idRequisicao, idProduto),
@@ -33,7 +33,7 @@ CREATE TABLE requisicao (
 );
 
 CREATE TABLE cotacao (
-    idCotacao INT NOT NULL,
+    idCotacao INT NOT NULL AUTO_INCREMENT,
     idComprador INT NOT NULL,
     finalizado BOOLEAN,
     PRIMARY KEY (idCotacao, idComprador),
@@ -45,13 +45,13 @@ CREATE TABLE ordemCompra (
 );
 
 CREATE TABLE cliente (
-    idCliente INT NOT NULL,
+    idCliente INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(45),
     PRIMARY KEY (idCliente)
 );
 
 CREATE TABLE pedido (
-    idPedido INT NOT NULL,
+    idPedido INT NOT NULL AUTO_INCREMENT,
     idCliente INT NOT NULL,
     finalizado BOOLEAN,
     PRIMARY KEY (idPedido),
@@ -59,14 +59,14 @@ CREATE TABLE pedido (
 );
 
 CREATE TABLE ordemVenda (
-    idOrdemVenda INT NOT NULL,
+    idOrdemVenda INT NOT NULL AUTO_INCREMENT,
     idVendedor INT NOT NULL,
     PRIMARY KEY (idOrdemVenda),
     FOREIGN KEY (idVendedor) REFERENCES funcionario(idFuncionario)
 );
 
 CREATE TABLE fornecedor (
-    idFornecedor INT NOT NULL,
+    idFornecedor INT NOT NULL AUTO_INCREMENT,
     nomeFornecedor VARCHAR(45),
     PRIMARY KEY (idFornecedor)
 );
