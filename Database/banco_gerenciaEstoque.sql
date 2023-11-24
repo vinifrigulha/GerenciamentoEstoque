@@ -7,6 +7,7 @@ CREATE TABLE funcionario (
     nome VARCHAR(45),
     cpf CHAR(11),
     email VARCHAR(45),
+    login VARCHAR(45),
     senha VARCHAR(45),
     telefone VARCHAR(45),
     endereco VARCHAR(45),
