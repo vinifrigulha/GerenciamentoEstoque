@@ -1,15 +1,16 @@
-INSERT INTO funcionario (nome, cpf, email, senha, telefone, endereco, tipoFuncionario)
+INSERT INTO funcionario (nome, cpf, email, login, senha, telefone, endereco, tipoFuncionario)
 VALUES
-    ('João Silva', '12345678901', 'joao@example.com', 'senha123', '(11) 1234-5678', 'Rua A, 123', 'C'),
-    ('Maria Santos', '23456789012', 'maria@example.com', 'senha456', '(12) 2345-6789', 'Rua B, 456', 'V'),
-    ('Pedro Oliveira', '34567890123', 'pedro@example.com', 'senha789', '(13) 3456-7890', 'Rua C, 789', 'C'),
-    ('Ana Souza', '45678901234', 'ana@example.com', 'senhaABC', '(14) 4567-8901', 'Rua D, 901', 'V'),
-    ('Breno Cardoso', '12345607222', 'benin@example.com', 'senhaLOL', '(27) 9983-4567', 'Rua B, 022', 'C'),
-    ('Gabriel Freire', '37845907689', 'biel@example.com', 'senhaBIBA', '(20) 3432-4567', 'Rua G, 456', 'V'),
-    ('Davi Ferreira', '39076845906', 'davizin@example.com', 'senhaANA', '(20) 4359-4567', 'Rua D, 232', 'C'),
-    ('Flavio Ortega', '18593038901', 'flavio@example.com', 'senhaFLA', '(20) 2321-4531', 'Rua F, 904', 'V'),
-    ('Cesar Augusto', '47890785688', 'cesaraugusto@example.com', 'senhaCESAR', '(20) 3241-4524', 'Rua CA, 333', 'V'),
-    ('Adriano Imperador', '85903286799', 'adriimpe@example.com', 'senhaIMP', '(20) 0123-4242', 'Rua AI, 171', 'V');
+    ('João Silva', '12345678901', 'joao@example.com', 'jsilva', 'senha123', '(11) 1234-5678', 'Rua A, 123', 'C'),
+    ('Maria Santos', '23456789012', 'maria@example.com', 'msantos', 'senha456', '(12) 2345-6789', 'Rua B, 456', 'V'),
+    ('Pedro Oliveira', '34567890123', 'pedro@example.com', 'poliveira', 'senha789', '(13) 3456-7890', 'Rua C, 789', 'C'),
+    ('Ana Souza', '45678901234', 'ana@example.com', 'asouza', 'senhaABC', '(14) 4567-8901', 'Rua D, 901', 'V'),
+    ('Breno Cardoso', '12345607222', 'benin@example.com', 'bcardoso', 'senhaLOL', '(27) 9983-4567', 'Rua B, 022', 'C'),
+    ('Gabriel Freire', '37845907689', 'biel@example.com', 'gfreire', 'senhaBIBA', '(20) 3432-4567', 'Rua G, 456', 'V'),
+    ('Davi Ferreira', '39076845906', 'davizin@example.com', 'dferreira', 'senhaANA', '(20) 4359-4567', 'Rua D, 232', 'C'),
+    ('Flavio Ortega', '18593038901', 'flavio@example.com', 'fortega', 'senhaFLA', '(20) 2321-4531', 'Rua F, 904', 'V'),
+    ('Cesar Augusto', '47890785688', 'cesaraugusto@example.com', 'caugusto', 'senhaCESAR', '(20) 3241-4524', 'Rua CA, 333', 'V'),
+    ('Adriano Imperador', '85903286799', 'adriimpe@example.com', 'aimperador', 'senhaIMP', '(20) 0123-4242', 'Rua AI, 171', 'V')
+    ('Administrador', '00000000000', 'admin@admin.com', 'admin', 'admin', '(99) 9999-9999', 'Endereco do Admin', 'A');
 
 
 INSERT INTO produto (preco, descricao, qtdEstoque, localizacaoEstoque, unidadeVenda, validade)
