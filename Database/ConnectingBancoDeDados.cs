@@ -19,7 +19,7 @@ class Program
 
                 using (MySqlCommand insertCommand = new MySqlCommand(query2, connection))
                 {
-                    // Substitua @nome e @email pelos parametros reais
+                    // Substitua @nome e @email pelos parametros
                     insertCommand.Parameters.AddWithValue("@nome", "Gil");
 
                     int rowsAffected = insertCommand.ExecuteNonQuery();
