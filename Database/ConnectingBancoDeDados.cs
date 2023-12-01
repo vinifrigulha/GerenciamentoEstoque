@@ -14,12 +14,12 @@ class Program
                 connection.Open();
                 Console.WriteLine("Conexão bem-sucedida!");
 
-                // Executar a consulta para inserir uma nova linha na tabela "cliente"
+                // Executar a consulta para inserir uma nova linha na tabela cliente com apenas o nome
                 string query2 = "INSERT INTO cliente (nome) VALUES (@nome)";
 
                 using (MySqlCommand insertCommand = new MySqlCommand(query2, connection))
                 {
-                    // Substitua "@nome" e "@email" pelos parâmetros reais
+                    // Substitua @nome e @email pelos parametros reais
                     insertCommand.Parameters.AddWithValue("@nome", "Gil");
 
                     int rowsAffected = insertCommand.ExecuteNonQuery();
@@ -39,7 +39,6 @@ class Program
                 Console.WriteLine($"Erro de conexão: {ex.Message}");
             }
 
-            // Fora do bloco using da conexão principal
             string query = "SELECT * FROM cliente";
 
             string NomePrincipal = "";
